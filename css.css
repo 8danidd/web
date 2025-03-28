@@ -1,0 +1,66 @@
+body {
+
+    /* Fondo */
+
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(0, 0, 70));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    /* Texto */
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-inline: 15%;
+}
+
+h1 {
+    font-size: 96px;
+    margin-top: 24px;
+    margin-bottom: 2px;
+}
+
+h2 {
+    padding-inline: 15%;
+}
+
+h3 {
+    margin: 0px;
+    font-size: 36px;
+}
+
+hr {
+    margin-block: 20px;
+}
+
+figure p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 1px;
+}
+
+#p1, #p2, #p3, #p4 {
+    transition:  0.3s ease;
+}
+
+#p1:hover {
+    font-size: 30px;
+}
+
+#p2:hover {
+    font-size: 30px;
+}
+
+#p3:hover {
+    font-size: 30px;
+}
+
+#p4:hover {
+    font-size: 30px;
+}
